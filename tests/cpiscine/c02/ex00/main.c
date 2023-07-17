@@ -11,7 +11,7 @@
 /* ************************************************************************** */
 
 #include <stdio.h>
-#include <strings.h>
+#include <bsd/strings.h>
 
 char	*ft_strcpy(char *dest, char *src);
 

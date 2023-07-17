@@ -12,7 +12,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
+#include <bsd/string.h>
 #include <stdbool.h>
 
 unsigned int	ft_strlcat(char *dest, char *src, unsigned int n);

@@ -11,7 +11,7 @@
 /* ************************************************************************** */
 
 #include <stdio.h>
-#include <string.h>
+#include <bsd/string.h>
 #include <stdbool.h>
 
 unsigned int	ft_strlcpy(char *dest, char *src, unsigned int size);

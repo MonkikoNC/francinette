@@ -72,7 +72,7 @@ int	main(void)
 	set_str("efgh", dest);
 	set_str("efgh", std_dest);
 	printf("%d\n", same_result(
-				strncpy(std_dest, std_src, 0),
+				std_dest,
 				ft_strncpy(dest, src, 0),
 				3));
 

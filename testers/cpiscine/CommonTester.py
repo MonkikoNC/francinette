@@ -127,7 +127,7 @@ class CommonTester:
 
 		logger.info(f"compiling files: {files} with flags: {flags}")
 		# result = os.system(f"gcc { " ".join(flags) } { " ".join(files) }")
-		gcc_exec = ["gcc"] + flags + files
+		gcc_exec = ["gcc"] + flags + files + ["-lbsd"]
 
 		print(f"{TC.CYAN}Executing: {TC.B_WHITE}{' '.join(gcc_exec)}{TC.NC}:")
 		p = subprocess.Popen(gcc_exec)

@@ -30,4 +30,8 @@ int main() {
 	str1 = "abcad";
 	str2 = "abcadtg";
 	printf("std: %i, yours: %i\n", strcmp(str1, str2), ft_strcmp(str1, str2));
+	
+	str1 = "Test1";
+	str2 = "OK";
+	printf("std: %i, yours: %i\n", strcmp(str1, str2), ft_strcmp(str1, str2));
 }

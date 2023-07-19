@@ -18,7 +18,7 @@ char	*ft_strcapitalize(char *str);
 
 int main(void)
 {
-	char str[100] = "salut, comMent tu vas ? 42mots quarAnte-deux; cinqu:ante+et+uN e.puntOs";
+	char str[100] = "salut, comMent tu vas ? 42mots quarAnte-deux; Cinqu:ante+et+uN e.puntOs";
 	char cpy[100];
 	char *ret;
 	strcpy(cpy, str);

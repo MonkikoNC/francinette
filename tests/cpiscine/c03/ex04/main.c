@@ -96,4 +96,23 @@ int main() {
 	res = ft_strstr(s1, s2);
 	std_res = strstr(s1, s2);
 	printf("return NULL if src is empty: %i (yours: '%p', std: '%p')\n", res == std_res, res , std_res);
+	
+	s1 = "This is OK for now";
+	s2 = "OK";
+	res = ft_strstr(s1, s2);
+	std_res = strstr(s1, s2);
+	printf("return the same positon: %i (yours: '%lu', std: '%lu')\n", res == std_res, (res - s1), (std_res - s1));
+
+	s1 = "Same";
+	s2 = "";
+	res = ft_strstr(s1, s2);
+	std_res = strstr(s1, s2);
+	printf("return the same positon: %i (yours: '%lu', std: '%lu')\n", res == std_res, (res - s1), (std_res - s1));
+
+	s1 = "Shorter";
+	s2 = "Than";
+	res = ft_strstr(s1, s2);
+	std_res = strstr(s1, s2);
+	printf("return the same positon: %i (yours: '%lu', std: '%lu')\n", res == std_res, (res - s1), (std_res - s1));
+
 }

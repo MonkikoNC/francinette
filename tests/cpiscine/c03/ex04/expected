@@ -4,3 +4,6 @@ return NULL on no match: 1, 1$
 return the first position on empty string: 1 (yours: '0', std: '0')$
 return same position on both empty strings: 1$
 return NULL if src is empty: 1 (yours: '(nil)', std: '(nil)')$
+return the same positon: 1 (yours: '8', std: '8')$
+return the same positon: 1 (yours: '0', std: '0')$
+return the same positon: 1 (yours: '18446744073705348741', std: '18446744073705348741')$
